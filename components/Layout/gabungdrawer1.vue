@@ -7,11 +7,13 @@
                     <v-divider></v-divider>                    
                 <v-list>
                       
-                
-                <v-list-item   prepend-icon="mdi-account-circle" title="ABOUT"  to="/about">
+                <v-list-item   prepend-icon="mdi-account-circle" title="DAFTAR KARYAWAN RS"  to="/">
+                <v-list-item-title></v-list-item-title>
+                </v-list-item>
+                <v-list-item   prepend-icon="mdi-account-circle" title="DETAIL KARYAWAN"  to="/detailkaryawan">
                     <v-list-item-title></v-list-item-title>
                 </v-list-item>
-                <v-list-item   prepend-icon="mdi-account-circle" title="BLOG"  to="/blog">
+                <v-list-item   prepend-icon="mdi-account-circle" title="ABOUT"  to="/about">
                     <v-list-item-title ></v-list-item-title>
                 </v-list-item>
                 <v-list-item   prepend-icon="mdi-account-circle" title="CONTACT"  to="/contact">

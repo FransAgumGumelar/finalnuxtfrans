@@ -1,10 +1,15 @@
 <template>
-  <H2> HALAMAN INDEX </H2>
-  <pre>{{ data }}</pre>
+  <h2>Index karyawan</h2>
   
-</template>
-
-<script setup lang="ts">
-const { data } = await useFetch('http://localhost:5000/users/5')
-
-</script>
+  <pre>{{ data }}</pre>
+    
+  </template>
+  
+  <script setup lang="ts">
+  const { data } = await useFetch('/api/user/karyawan/userrs')
+  
+  definePageMeta({
+  layout: 'default'
+})
+  </script>
+  
